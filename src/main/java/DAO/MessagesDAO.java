@@ -70,7 +70,6 @@ public class MessagesDAO {
                     rs.getString("message_text"),
                     rs.getLong("time_posted_epoch")
                 );
-                
                 return message;
             }
 
